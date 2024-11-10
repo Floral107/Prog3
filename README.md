@@ -11,8 +11,9 @@ Az én automatám is úgy működik, mint a többi sejtautomata, hogy egy 2D rá
 
 Egy lehetséges program pl.:
 [állapot-cellaérték-irány-újérték-újállapot]
-0-0-R-1-0
-0-1-R-1-1
-1-0-N-0-0
-1-1-N-0-1
+  0-0-R-1-0
+  0-1-R-1-1
+  1-0-N-0-0
+  1-1-N-0-1
+  
 Tehát 0-s állapotban, ha 0-s cellán áll, akkor jobbra fordul, 1-est ír, és marad 0-s állapotban. Ha 1-es cellán áll, akkor jobbra fordul és átmegy 1-es állapotba. Amikor 1-es állapotban van, ha 0-át talál, akkor átmegy 0-s állapotba; ha 1-et talál, akkor azt 0-ra javítja, de marad 1-es állapotban. A program által generált eredményeket png fájlba tudja menteni a felhasználó.
